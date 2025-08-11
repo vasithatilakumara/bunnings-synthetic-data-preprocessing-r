@@ -1,7 +1,7 @@
 # Bunnings Synthetic Data Generation & Preprocessing in R
 
 ## Project Overview
-This project was completed as part of the **MATH2349 – Data Wrangling (Preprocessing)** assessment at RMIT University.  
+This project was completed as part of the assessment at RMIT University.  
 It simulates the role of a **data analyst** at **Bunnings Warehouse**, generating realistic synthetic datasets, introducing data imperfections, merging datasets, and performing preprocessing steps before summarising insights.
 
 ---
