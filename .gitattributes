@@ -1,0 +1,23 @@
+# Treat R Markdown as R so the repo shows as R-heavy
+*.Rmd linguist-language=R
+*.qmd linguist-language=R
+
+# Count plain R files as R (usually automatic, but explicit is fine)
+*.R linguist-language=R
+*.r linguist-language=R
+
+# Don’t let data or generated artifacts skew the stats
+data/** linguist-detectable=false
+*.csv linguist-generated
+*.tsv linguist-generated
+*.pdf linguist-generated
+*.html linguist-generated
+
+# Ignore docs and vendored stuff in language stats
+docs/** linguist-documentation
+vendor/** linguist-vendored
+
+# CI/config shouldn’t count toward languages
+.github/** linguist-generated
+*.yml linguist-generated
+*.yaml linguist-generated
