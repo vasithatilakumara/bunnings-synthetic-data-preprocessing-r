@@ -1,13 +1,17 @@
 ---
 title: "Data Wrangling (Data Preprocessing)" 
 author: Vasitha Tilakumara
-subtitle: Generate and Preprocess Realistic Synthetic Data
+subtitle: Generate & Preprocess Realistic Synthetic Data
 date: ""
 output:
   html_document:
+    fig_caption: yes
+    theme: cerulean
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
     df_print: paged
-  html_notebook: default 
-  pdf_document: default
+  html_notebook: default
 ---
 
 ## **Setup**
